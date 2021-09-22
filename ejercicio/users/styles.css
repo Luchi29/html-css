@@ -1,0 +1,81 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+    color: azure;
+    padding: 0px 10px;
+}
+
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+    
+}
+
+.title-content{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    
+}
+.title{
+    width: 80%;
+    margin-left: 175px;
+}
+.btn{
+    width: 20%;
+    text-align: center;
+    margin-right: 75px;
+}
+
+.btn-new-user{
+    margin: 10px 0px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: lightseagreen;
+    border: none;
+    color: floralwhite;
+}
+
+.users-table{
+    width: 80%;
+}
+
+#users td, #users th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+    height: 30px;
+}
+  
+#users tr:nth-child(even){background-color: #f2f2f2;}
+  
+#users tr:hover {background-color: #ddd;}
+  
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(68, 231, 223);
+}  
+
